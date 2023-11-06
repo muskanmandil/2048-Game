@@ -1,0 +1,157 @@
+*{
+    color: #f9f6f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #faf8ef;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 2% auto;
+    text-align: center;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #776e65;
+    font-size: 72px;
+}
+
+.score-box{
+    background-color: #bbada0;
+    border-radius: 4px;
+    color: #eee4da;
+    padding: 10px 30px;
+}
+
+#score{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #8f7a66;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+
+.game{
+    background-color:#bbada0;
+    border-radius: 16px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+.box{
+    align-items: center;
+    background-color: #eee4da59;
+    border-radius: 4px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.win {
+    opacity: 0.3;
+
+}
+
+.lost {
+    opacity: 0.3;
+}
+
+.hidden {
+    display: none;
+}
+
+.structure{
+    position: absolute;
+    top: 50%;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #776e65;
+}
+
+
+
+/* Font Colors */
+.x2, .x4 {
+    color: #776e65;
+}
+
+/* Background Colors */
+.x2 {
+    background-color: #eee4da;
+}
+
+.x4 {
+    background-color: #eee1c9;
+}
+
+.x8 {
+    background-color: #f3b27a;
+    
+}
+
+.x16 {
+    background-color: #f69664;
+
+}
+
+.x32 {
+    background-color: #f77c5f;
+
+}
+
+.x64 {
+    background-color: #f75f3b;
+}
+
+.x128 {
+    background-color: #edd073;
+}
+
+.x256 {
+    background-color: #edcc62;
+}
+
+.x512 {
+    background-color: #edc950;
+}
+
+.x1024 {
+    background-color: #edc53f;
+}
+
+footer{
+    color: #8f7a66;
+    font-weight: 600;
+}

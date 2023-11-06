@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="shortcut icon" href="https://play2048.co/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>2048</h1>
+
+            <div class="score-box">
+                <p>SCORE</p>
+                <p id="score">0</p>
+            </div>
+            <button class="reload">New Game</button>
+
+        </header>
+
+        <div class="game">
+            <div id="0" class="box false"></div>
+            <div id="1" class="box false"></div>
+            <div id="2" class="box false"></div>
+            <div id="3" class="box false"></div>
+            <div id="4" class="box false"></div>
+            <div id="5" class="box false"></div>
+            <div id="6" class="box false"></div>
+            <div id="7" class="box false"></div>
+            <div id="8" class="box false"></div>
+            <div id="9" class="box false"></div>
+            <div id="10" class="box false"></div>
+            <div id="11" class="box false"></div>
+            <div id="12" class="box false"></div>
+            <div id="13" class="box false"></div>
+            <div id="14" class="box false"></div>
+            <div id="15" class="box false"></div>
+        </div>
+
+        <div class="hidden structure">
+            <h2>Game Over</h2>
+            <button class="reload">Try Again</button>
+        </div>
+
+        <div class="hidden structure">
+            <h2>You won the game</h2>
+            <button class="reload">Play Again</button>
+        </div>
+
+        <footer>Made with ❤️ by Muskan Mandil</footer>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+
+</html>
